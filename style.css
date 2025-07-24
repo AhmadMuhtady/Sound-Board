@@ -5,12 +5,40 @@
 }
 
 body {
+	background-color: rgb(161, 100, 223);
 	font-family: 'Inter', sans-serif;
 	font-optical-sizing: auto;
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
 	overflow: hidden;
+}
+
+.btn {
+	background-color: rebeccapurple;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	margin: 1rem;
+	padding: 1.5rem 3rem;
+	font-size: 1.2rem;
+	font-family: inherit;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn:active {
+	transform: scale(0.98);
+}
+
+.btn:hover {
+	opacity: 0.9;
+	color: rebeccapurple;
+	background-color: #fff;
 }
